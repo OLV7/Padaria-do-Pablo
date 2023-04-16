@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria do Pablo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Padaria do Pablo</a>
+            </div>
+            <ul class="menu">
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Padaria do Pablo</h1>
+            <p>Os melhores pães e doces artesanais da cidade!</p>
+            <a href="#produtos" class="btn">Nossos produtos</a>
+        </section>
+        <section class="produtos" id="produtos">
+            <h2>Nossos produtos</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="pao-frances.jpg" alt="Pão francês">
+                    <h3>carioquinha</h3>
+                    <p>R$ 0,50 a unidade</p>
+                </div>
+                <div class="produto">
+                    <img src="bolo-chocolate.jpg" alt="Bolo de chocolate">
+                    <h3>Bolo de chocolate</h3>
+                    <p>R$ 25,00 o kg</p>
+                </div>
+                <div class="produto">
+                    <img src="doce-leite.jpg" alt="Doce de leite">
+                    <h3>Doce de leite</h3>
+                    <p>R$ 15,00 o pote</p>
+                </div>
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <h2>Sobre nós</h2>
+            <p>A Padaria do Pablo está há mais de 10 anos no mercado, oferecendo produtos de qualidade e com muito sabor. Nossa missão é levar alegria e conforto aos nossos clientes, com pães, bolos e doces feitos com amor e carinho.</p>
+        </section>
+        <section class="contato" id="contato">
+            <h2>Entre em contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Padaria do Pablo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
